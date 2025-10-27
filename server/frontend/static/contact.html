@@ -1,0 +1,30 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us | Best Cars Dealership</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+  <div class="contact-container">
+    <h1>Contact Us</h1>
+    <p>
+      We'd love to hear from you! Reach out for sales questions, support, or just to say hello.
+    </p>
+    <ul>
+      <li><strong>Email:</strong> help@bestcars.com</li>
+      <li><strong>Phone:</strong> +91 98765 43210</li>
+      <li><strong>Location:</strong> 400 Main Street, Mumbai, India</li>
+      <li><strong>Working Hours:</strong> Mon–Sat, 9:00 AM – 7:00 PM</li>
+    </ul>
+    <img src="{% static 'images/dealership.jpg' %}" alt="Dealership Location">
+    <div class="social-links">
+      <span>Follow us:</span>
+      <a href="https://instagram.com/bestcars" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://facebook.com/bestcars" target="_blank" rel="noopener">Facebook</a>
+      <a href="https://twitter.com/bestcars" target="_blank" rel="noopener">Twitter</a>
+    </div>
+  </div>
+</body>
+</html>
